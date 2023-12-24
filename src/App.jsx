@@ -1,20 +1,48 @@
 import './App.css'
+import About from './components/about/About';
+import Chatbot from './components/chatbot/chatbot';
+import Contact from './components/contact/Contact';
 import Hero from './components/hero/Hero';
 import Navbar from './components/navbar/Navbar';
+import Parallax from './components/parallax/Parallax';
+import Services from './components/services/Services';
+import Skills from './components/skills/Skills';
+
 const App = () => {
   return (
     <div className='container mx-auto'>
-      <section id='home' className='px-2'>
+
+      <section id='home' className='md:px-2'>
         <Navbar></Navbar>
         <Hero></Hero>
       </section>
-      <section id='services'>parallax</section>
-      <section>services</section>
-      <section id='portfolio'>parallax</section>
+
+      <section id='about' className='px-2'>
+        <About />
+      </section>
+      <section id='skills' className='px-2'>
+        <Skills />
+      </section>
+
+      <section id='services' className='px-2'>
+        <Parallax type="services" />
+      </section>
+
+      <section className='px-2'>
+        <Services />
+      </section>
+
+      <section id='portfolio' className='px-2'>
+        <Parallax type="portfolio" />
+      </section>
+
       <section>portfolio1</section>
       <section>portfolio2</section>
       <section>portfolio3</section>
-      <section id='contact'>contact</section>
+      <section id='contact' className='px-2'>
+        <Contact />
+      </section>
+      <Chatbot />
     </div>
   );
 };
