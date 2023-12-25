@@ -5,6 +5,7 @@ import Contact from './components/contact/Contact';
 import Hero from './components/hero/Hero';
 import Navbar from './components/navbar/Navbar';
 import Parallax from './components/parallax/Parallax';
+import Portfolio from './components/portfolio/Portfolio';
 import Services from './components/services/Services';
 import Skills from './components/skills/Skills';
 
@@ -28,7 +29,7 @@ const App = () => {
         <Parallax type="services" />
       </section>
 
-      <section className='px-2'>
+      <section id='services' className='px-2'>
         <Services />
       </section>
 
@@ -36,9 +37,10 @@ const App = () => {
         <Parallax type="portfolio" />
       </section>
 
-      <section>portfolio1</section>
-      <section>portfolio2</section>
-      <section>portfolio3</section>
+      <section className='px-2'>
+        <Portfolio />
+      </section>
+
       <section id='contact' className='px-2'>
         <Contact />
       </section>

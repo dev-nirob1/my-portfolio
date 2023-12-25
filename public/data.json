@@ -1,0 +1,189 @@
+[
+    {
+        "id": 1,
+        "title": "Legal Solution",
+        "description": "Developed a full-fledged e-commerce platform with features such as product listing, user authentication, and secure payment processing.",
+        "technologies": [
+            "Html",
+            "tailwindcss",
+            "flowbite components library"
+        ],
+        "image": "/hero.png",
+        "live_link": "https://www.example-ecommerce.com",
+        "github_link": "https://github.com/your-username/ecommerce-project",
+        "category": "Static"
+    },
+    {
+        "id": 2,
+        "title": "Portfolio Website",
+        "description": "Designed and built a personal portfolio website to showcase my skills, projects, and experience.",
+        "technologies": [
+            "HTML",
+            "CSS",
+            "Bootstrap"
+        ],
+        "image": "/hero.png",
+        "live_link": "https://www.your-portfolio.com",
+        "github_link": "https://github.com/your-username/portfolio-website",
+        "category": "Static"
+    },
+    {
+        "id": 3,
+        "title": "Temperature app",
+        "description": "Created a weather application that provides real-time weather information based on user location or search input.",
+        "technologies": [
+            "Html",
+            "Css",
+            "Javascript"
+        ],
+        "image": "/hero.png",
+        "live_link": "https://www.example-weather-app.com",
+        "github_link": "https://github.com/your-username/weather-app",
+        "category": "Javascript"
+    },
+    {
+        "id": 4,
+        "title": "Ai universe hub",
+        "description": "Built a task manager application with features for task creation, completion tracking, and priority assignment.",
+        "technologies": [
+            "html",
+            "tailwindcss",
+            "Javascript"
+        ],
+        "image": "/hero.png",
+        "live_link": "https://www.example-task-manager.com",
+        "github_link": "https://github.com/your-username/task-manager-app",
+        "category": "Javascript"
+    },
+    {
+        "id": 5,
+        "title": "Geometry Genius",
+        "description": "Developed a blogging platform that allows users to create, edit, and publish articles with rich text editing capabilities.",
+        "technologies": [
+            "html",
+            "tailwindcss",
+            "Javascript"
+        ],
+        "image": "/hero.png",
+        "live_link": "https://www.example-blog.com",
+        "github_link": "https://github.com/your-username/blog-platform",
+        "category": "Javascript"
+    },
+    {
+        "id": 6,
+        "title": "E-Schools",
+        "description": "Designed and implemented a responsive social media dashboard with real-time data updates and interactive charts.",
+        "technologies": [
+            "html",
+            "css",
+            "Bootstrap"
+        ],
+        "image": "/hero.png",
+        "live_link": "https://www.example-social-dashboard.com",
+        "github_link": "https://github.com/your-username/social-media-dashboard",
+        "category": "Static"
+    },
+    {
+        "id": 7,
+        "title": "reveal-landing",
+        "description": "Designed and implemented a responsive social media dashboard with real-time data updates and interactive charts.",
+        "technologies": [
+            "html",
+            "css",
+            "Bootstrap"
+        ],
+        "image": "/hero.png",
+        "live_link": "https://www.example-social-dashboard.com",
+        "github_link": "https://github.com/your-username/social-media-dashboard",
+        "category": "Static"
+    },
+    {
+        "id": 8,
+        "title": "Bikerz-zone",
+        "description": "Designed and implemented a responsive social media dashboard with real-time data updates and interactive charts.",
+        "technologies": [
+            "html",
+            "css",
+            "Bootstrap"
+        ],
+        "image": "/hero.png",
+        "live_link": "https://www.example-social-dashboard.com",
+        "github_link": "https://github.com/your-username/social-media-dashboard",
+        "category": "Static"
+    },
+    {
+        "id": 9,
+        "title": "Idea Fountain",
+        "description": "Designed and implemented a responsive social media dashboard with real-time data updates and interactive charts.",
+        "technologies": [
+            "React.js",
+            "tailwindcss"
+        ],
+        "image": "/hero.png",
+        "live_link": "https://www.example-social-dashboard.com",
+        "github_link": "https://github.com/your-username/social-media-dashboard",
+        "category": "React"
+    },
+    {
+        "id": 10,
+        "title": "Job Finder",
+        "description": "Designed and implemented a responsive social media dashboard with real-time data updates and interactive charts.",
+        "technologies": [
+            "React.js",
+            "tailwindcss",
+            "recharts"
+        ],
+        "image": "/hero.png",
+        "live_link": "https://www.example-social-dashboard.com",
+        "github_link": "https://github.com/your-username/social-media-dashboard",
+        "category": "React"
+    },
+    {
+        "id": 11,
+        "title": "Toy Store",
+        "description": "Designed and implemented a responsive social media dashboard with real-time data updates and interactive charts.",
+        "technologies": [
+            "tailwindcss",
+            "React.js",
+            "Firebase",
+            "express.js",
+            "npm",
+            "react-tabs"
+        ],
+        "image": "/hero.png",
+        "live_link": "https://www.example-social-dashboard.com",
+        "github_link": "https://github.com/your-username/social-media-dashboard",
+        "category": "React"
+    },
+    {
+        "id": 12,
+        "title": "Tasty Bite",
+        "description": "Designed and implemented a responsive social media dashboard with real-time data updates and interactive charts.",
+        "technologies": [
+            "tailwindcss",
+            "React.js",
+            "Firebase"
+        ],
+        "image": "/hero.png",
+        "live_link": "https://www.example-social-dashboard.com",
+        "github_link": "https://github.com/your-username/social-media-dashboard",
+        "category": "React"
+    },
+    {
+        "id": 13,
+        "title": "Accent Adept",
+        "description": "Designed and implemented a responsive social media dashboard with real-time data updates and interactive charts.",
+        "technologies": [
+            "tailwindcss",
+            "React.js",
+            "Firebase",
+            "Node.js",
+            "Express.js",
+            "Mongodb"
+        ],
+        "image": "/hero.png",
+        "live_link": "https://www.example-social-dashboard.com",
+        "github_link": "https://github.com/your-username/social-media-dashboard",
+        "category": "React"
+    }
+]
