@@ -6,7 +6,7 @@
         "technologies": [
             "Html",
             "tailwindcss",
-            "flowbite components library"
+            "flowbite"
         ],
         "image": "/hero.png",
         "live_link": "https://www.example-ecommerce.com",
@@ -143,17 +143,18 @@
         "title": "Toy Store",
         "description": "Designed and implemented a responsive social media dashboard with real-time data updates and interactive charts.",
         "technologies": [
-            "tailwindcss",
+            "Tailwindcss",
             "React.js",
             "Firebase",
-            "express.js",
+            "Express.js",
+            "Mongodb",
             "npm",
-            "react-tabs"
+            "React-tabs"
         ],
         "image": "/hero.png",
         "live_link": "https://www.example-social-dashboard.com",
         "github_link": "https://github.com/your-username/social-media-dashboard",
-        "category": "React"
+        "category": "Mern Stack"
     },
     {
         "id": 12,

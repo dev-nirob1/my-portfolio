@@ -32,7 +32,7 @@ const imgVariants = {
 const About = () => {
     return (
         <div className='container mx-auto md:h-screen bg-gradient-to-b from-[#111132] to-[#0c0c1d] px-4 md:px-8 lg:px-16 py-5 md:py-10 mb-16'>
-            <h2 className="text-3xl text-gray-100 md:text-4xl font-bold md:font-extrabold py-5 md:py-10 flex items-center justify-center gap-1">
+            <h2 className="text-3xl text-gray-300 md:text-4xl font-bold md:font-extrabold py-5 md:py-10 flex items-center justify-center gap-1">
                 <hr className='w-[50px] border-t-2' />
                 About Me
             </h2>
@@ -45,10 +45,10 @@ const About = () => {
 
                 <motion.div variants={textVariants} initial="initial" animate="animate" className='text-gray-400 text-base mt-5 md:mt-0'>
                     <motion.p variants={textVariants}>
-                        Hi, I'm Al Hasan Nirob, a passionate front-end web developer currently pursuing BBA Management at Govt. Azizul Haque College. I started my journey into the world of technology and programming by successfully completing my SSC examination in 2018 from Sariakandi Govt High School, followed by my HSC examination in 2021 at Govt. Azizul Haque College.
+                        Hi, I&apos;m Al Hasan Nirob, a passionate front-end web developer currently pursuing BBA Management at Govt. Azizul Haque College. I started my journey into the world of technology and programming by successfully completing my SSC examination in 2018 from Sariakandi Govt High School, followed by my HSC examination in 2021 at Govt. Azizul Haque College.
                     </motion.p>
                     <motion.p variants={textVariants} className="mt-4">
-                        Over the last 1.5 years, I've immersed myself in the exciting realm of web development. While my primary focus is on front-end technologies, I'm also familiar with backend technologies like Node.js and Express.js. I can build full-stack applications using the basics, creating seamless and integrated user experiences.
+                        Over the last 1.5 years, I&apos;ve immersed myself in the exciting realm of web development. While my primary focus is on front-end technologies, I&apos;m also familiar with backend technologies like Node.js and Express.js. I can build full-stack applications using the basics, creating seamless and integrated user experiences.
                     </motion.p>
                     <motion.p variants={textVariants} className="mt-4">
                         With a passion for crafting beautiful and user-friendly interfaces, I am dedicated to delivering exceptional digital experiences. Join me on this exciting journey as I continue to explore and contribute to the ever-evolving world of web development.

@@ -27,14 +27,14 @@ const Contact = () => {
 
     return (
         <div className="min-h-screen bg-gradient-to-b from-[#111132] to-[#0c0c1d] text-white px-4 md:px-8 lg:px-16 py-5">
-            <h2 className="text-3xl text-gray-200 md:text-4xl font-bold md:font-extrabold py-5 md:py-10 flex items-center justify-center gap-1">
+            <h2 className="text-3xl text-gray-300 md:text-4xl font-bold md:font-extrabold py-5 md:py-10 flex items-center justify-center gap-1">
                 <hr className='w-[50px] border-t-2' />
                 Contact Me
             </h2>
             <div className="container mx-auto p-2 grid justify-center grid-cols-1 md:grid-cols-2 items-center gap-8">
                 {/* Left Container */}
                 <div className="max-w-md">
-                    <h1 className="text-4xl font-bold mb-4 text-gray-300">Let's Talk</h1>
+                    <h1 className="text-4xl font-bold mb-4 text-gray-300">Let&lsquo;s Talk</h1>
                     <p className="text-lg mb-4 text-gray-400">
                         Have a question or want to discuss a project? Feel free to contact
                         me using the information below:
@@ -67,7 +67,7 @@ const Contact = () => {
                 </div>
 
                 {/* Right Container */}
-                <div className="max-w-md bg-[#111132] p-5">
+                <div className="max-w-md bg-[#111132] shadow-md shadow-indigo-800 rounded p-5">
                     <form onSubmit={sendEmail} ref={formRef}>
                         <div className="mb-4">
                             <label htmlFor="name" className="block text-gray-300 font-medium">
@@ -77,7 +77,7 @@ const Contact = () => {
                                 type="text"
                                 id="name"
                                 name="name"
-                                className="mt-1 p-2 w-full border rounded-sm border-gray-200 bg-transparent text-gray-200 focus:outline-none focus:border-indigo-500"
+                                className="mt-1 p-2 w-full border rounded-sm border-gray-600 bg-transparent text-gray-200 focus:outline-none focus:border-indigo-800"
                                 placeholder="John Doe"
                             />
                         </div>
@@ -90,7 +90,7 @@ const Contact = () => {
                                 type="email"
                                 id="email"
                                 name="email"
-                                className="mt-1 p-2 w-full border rounded-sm border-gray-200 bg-transparent text-gray-200 focus:outline-none focus:border-indigo-500"
+                                className="mt-1 p-2 w-full border rounded-sm border-gray-600 bg-transparent text-gray-200 focus:outline-none focus:border-indigo-800"
                                 placeholder="john@example.com"
                             />
                         </div>
@@ -103,20 +103,20 @@ const Contact = () => {
                                 id="message"
                                 name="message"
                                 rows="4"
-                                className="mt-1 p-2 w-full border rounded-sm border-gray-200 bg-transparent text-gray-200 focus:outline-none focus:border-indigo-500"
+                                className="mt-1 p-2 w-full border rounded-sm border-gray-600 bg-transparent text-gray-200 focus:outline-none focus:border-indigo-800"
                                 placeholder="Write your message here..."
                             ></textarea>
                         </div>
 
-                            <p className="text-red-500 mb-4">{error}</p>
-                            
-                            <p className="text-green-500 mb-4">{success}</p>
-                        
+                        <p className="text-red-500 mb-4">{error}</p>
+
+                        <p className="text-green-500 mb-4">{success}</p>
+
 
                         <div className='flex items-center justify-end'>
                             <button
                                 type="submit"
-                                className="bg-[#0c0c1d] font-medium hover:bg-indigo-900 rounded text-gray-300 py-[10px] px-5"
+                                className="bg-[#0c0c1d] font-medium border border-gray-800 hover:bg-gradient-to-r from-bg-indigo-600 to-bg-indigo-800 rounded text-gray-300 hover:border-indigo-800 shadow hover:shadow-indigo-800 py-[10px] px-5"
                             >
                                 Send Message
                             </button>

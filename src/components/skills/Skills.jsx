@@ -57,7 +57,7 @@ const Skills = () => {
 
   return (
     <div className="bg-gradient-to-b from-[#0c0c1d] to-[#111132] py-5 md:pb-16 px-4 md:px-8 lg:px-16 text-gray-200">
-      <h2 className="text-3xl text-gray-100 md:text-4xl font-bold md:font-extrabold my-5 md:my-10 flex items-center justify-center gap-1">
+      <h2 className="text-3xl text-gray-300 md:text-4xl font-bold md:font-extrabold my-5 md:my-10 flex items-center justify-center gap-1">
         <hr className='w-[50px] border-t-2' />
         Skills
       </h2>

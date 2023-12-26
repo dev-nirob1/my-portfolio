@@ -4,7 +4,7 @@ import Chatbot from './components/chatbot/chatbot';
 import Contact from './components/contact/Contact';
 import Hero from './components/hero/Hero';
 import Navbar from './components/navbar/Navbar';
-import Parallax from './components/parallax/Parallax';
+// import Parallax from './components/parallax/Parallax';
 import Portfolio from './components/portfolio/Portfolio';
 import Services from './components/services/Services';
 import Skills from './components/skills/Skills';
@@ -25,17 +25,17 @@ const App = () => {
         <Skills />
       </section>
 
-      <section id='services' className='px-2'>
+      {/* <section id='services' className='px-2'>
         <Parallax type="services" />
-      </section>
+      </section> */}
 
       <section id='services' className='px-2'>
         <Services />
       </section>
 
-      <section id='portfolio' className='px-2'>
+      {/* <section id='portfolio' className='px-2'>
         <Parallax type="portfolio" />
-      </section>
+      </section> */}
 
       <section className='px-2'>
         <Portfolio />

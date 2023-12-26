@@ -9,7 +9,7 @@ const Projects = ({ project }) => {
                 </figure>
                 <div className="text-center pt-5">
                     <p className="text-2xl font-semibold">{title}</p>
-                    {technologies.map((tech, i) => <span className="inline-flex m-1 flex-wrap rounded bg-orange-600" key={i}>{tech}</span>)}
+                    {technologies.map((tech, i) => <span className="inline-flex m-1 flex-wrap rounded bg-orange-600 text-sm" key={i}>{tech}</span>)}
                 </div>
                 <div>
                     <p className="text-gray-400 my-3">{description}</p>

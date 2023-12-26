@@ -1,15 +1,13 @@
-import React from 'react';
+import SectionTitle from '../shared/SectionTitle'
 
 const Services = () => {
     return (
-        <div className="bg-gradient-to-b from-[#111132] to-[#0c0c1d]  px-4 md:px-8 lg:px-16 text-white py-16">
+        <div className="bg-gradient-to-b from-[#111132] to-[#0c0c1d]  px-4 md:px-8 lg:px-16 py-16">
             <div className="container mx-auto">
-                <div className='text-center mb-12 relative'>
-                    <h2 className="text-4xl font-bold">My Services</h2>
-                    <p className='md:w-1/2 mx-auto pt-3 text-gray-400 font-medium'>
-                        I prioritize client satisfaction as my top responsibility, aiming to exceed expectations and deliver exceptional results in every project.
-                    </p>
-                </div>
+                <SectionTitle
+                    heading='My Services'
+                    subHeading='I prioritize client satisfaction as my top responsibility, aiming to exceed expectations and deliver exceptional results in every project.'
+                />
 
                 <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
                     {/* Service Card 1 */}

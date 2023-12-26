@@ -3,4 +3,6 @@
 @tailwind utilities;
 
 
-  
+.react-tabs__tab {
+    position: static;
+}
