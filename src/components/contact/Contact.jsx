@@ -3,6 +3,7 @@ import emailjs from '@emailjs/browser';
 import phone from '/phone.png';
 import envelop from '/envelop.png';
 import location from '/location.png';
+import Alert from '../../alert/Alert';
 
 const Contact = () => {
     const formRef = useRef();
@@ -28,7 +29,7 @@ const Contact = () => {
     return (
         <div className="min-h-screen bg-gradient-to-b from-[#111132] to-[#0c0c1d] text-white px-4 md:px-8 lg:px-16 py-5">
             <h2 className="text-3xl text-gray-300 md:text-4xl font-bold md:font-extrabold py-5 md:py-10 flex items-center justify-center gap-1">
-                <hr className='w-[50px] border-t-2' />
+            <hr className='w-[50px] border-t-4 rounded text-gray-300' />
                 Contact Me
             </h2>
             <div className="container mx-auto p-2 grid justify-center grid-cols-1 md:grid-cols-2 items-center gap-8">
@@ -39,7 +40,7 @@ const Contact = () => {
                         Have a question or want to discuss a project? Feel free to contact
                         me using the information below:
                     </p>
-                    <div className="text-gray-400 ml-6 space-y-4">
+                    <div className="text-gray-400 ml-6 mb-2 space-y-4">
                         <div className='flex gap-3 items-center'>
                             <img style={{ width: '30px' }} src={envelop} alt="email link" />
                             <div>
@@ -64,6 +65,8 @@ const Contact = () => {
                             </div>
                         </div>
                     </div>
+                    
+                    <Alert/>
                 </div>
 
                 {/* Right Container */}
@@ -78,7 +81,7 @@ const Contact = () => {
                                 id="name"
                                 name="name"
                                 className="mt-1 p-2 w-full border rounded-sm border-gray-600 bg-transparent text-gray-200 focus:outline-none focus:border-indigo-800"
-                                placeholder="John Doe"
+                                placeholder="John Doe" required
                             />
                         </div>
 
@@ -91,7 +94,7 @@ const Contact = () => {
                                 id="email"
                                 name="email"
                                 className="mt-1 p-2 w-full border rounded-sm border-gray-600 bg-transparent text-gray-200 focus:outline-none focus:border-indigo-800"
-                                placeholder="john@example.com"
+                                placeholder="john@example.com" required
                             />
                         </div>
 
@@ -104,7 +107,7 @@ const Contact = () => {
                                 name="message"
                                 rows="4"
                                 className="mt-1 p-2 w-full border rounded-sm border-gray-600 bg-transparent text-gray-200 focus:outline-none focus:border-indigo-800"
-                                placeholder="Write your message here..."
+                                placeholder="Write your message here..." required
                             ></textarea>
                         </div>
 
@@ -116,7 +119,7 @@ const Contact = () => {
                         <div className='flex items-center justify-end'>
                             <button
                                 type="submit"
-                                className="bg-[#0c0c1d] font-medium border border-gray-800 hover:bg-gradient-to-r from-bg-indigo-600 to-bg-indigo-800 rounded text-gray-300 hover:border-indigo-800 shadow hover:shadow-indigo-800 py-[10px] px-5"
+                                className="bg-[#0c0c1d] transition-all duration-300 font-medium border border-gray-800 hover:bg-gradient-to-r from-indigo-900 to-indigo-950 rounded text-gray-300 hover:border-indigo-800 shadow-md hover:shadow-indigo-900 py-[10px] px-5"
                             >
                                 Send Message
                             </button>

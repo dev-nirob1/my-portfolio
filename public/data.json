@@ -8,23 +8,9 @@
             "tailwindcss",
             "flowbite"
         ],
-        "image": "/hero.png",
-        "live_link": "https://www.example-ecommerce.com",
-        "github_link": "https://github.com/your-username/ecommerce-project",
-        "category": "Static"
-    },
-    {
-        "id": 2,
-        "title": "Portfolio Website",
-        "description": "Designed and built a personal portfolio website to showcase my skills, projects, and experience.",
-        "technologies": [
-            "HTML",
-            "CSS",
-            "Bootstrap"
-        ],
-        "image": "/hero.png",
-        "live_link": "https://www.your-portfolio.com",
-        "github_link": "https://github.com/your-username/portfolio-website",
+        "image": "/projectsImage/Legal-solution.png",
+        "live_link": "https://legal-solutions-tailwind.netlify.app/",
+        "github_link": "https://github.com/dev-nirob1/legal-solution/tree/main/legal-solution",
         "category": "Static"
     },
     {
@@ -36,9 +22,9 @@
             "Css",
             "Javascript"
         ],
-        "image": "/hero.png",
-        "live_link": "https://www.example-weather-app.com",
-        "github_link": "https://github.com/your-username/weather-app",
+        "image": "/projectsImage/temperature-app.png",
+        "live_link": "https://dev-nirob1.github.io/temperature-app/",
+        "github_link": "https://github.com/dev-nirob1/temperature-app",
         "category": "Javascript"
     },
     {
@@ -50,9 +36,9 @@
             "tailwindcss",
             "Javascript"
         ],
-        "image": "/hero.png",
-        "live_link": "https://www.example-task-manager.com",
-        "github_link": "https://github.com/your-username/task-manager-app",
+        "image": "/projectsImage/ai-universe.png",
+        "live_link": "https://a-universehub-assignment.netlify.app/",
+        "github_link": "https://github.com/dev-nirob1/ai-universe",
         "category": "Javascript"
     },
     {
@@ -64,37 +50,23 @@
             "tailwindcss",
             "Javascript"
         ],
-        "image": "/hero.png",
-        "live_link": "https://www.example-blog.com",
+        "image": "/projectsImage/geometry-genius.png",
+        "live_link": "https://geometry-genius-assign.netlify.app/",
         "github_link": "https://github.com/your-username/blog-platform",
         "category": "Javascript"
     },
     {
-        "id": 6,
-        "title": "E-Schools",
-        "description": "Designed and implemented a responsive social media dashboard with real-time data updates and interactive charts.",
-        "technologies": [
-            "html",
-            "css",
-            "Bootstrap"
-        ],
-        "image": "/hero.png",
-        "live_link": "https://www.example-social-dashboard.com",
-        "github_link": "https://github.com/your-username/social-media-dashboard",
-        "category": "Static"
-    },
-    {
         "id": 7,
-        "title": "reveal-landing",
+        "title": "Reveal Landing page",
         "description": "Designed and implemented a responsive social media dashboard with real-time data updates and interactive charts.",
         "technologies": [
             "html",
             "css",
             "Bootstrap"
         ],
-        "image": "/hero.png",
-        "live_link": "https://www.example-social-dashboard.com",
-        "github_link": "https://github.com/your-username/social-media-dashboard",
+        "image": "/projectsImage/Reveal-landing.png",
+        "live_link": "https://dev-nirob1.github.io/reveal-landing-page/",
+        "github_link": "https://github.com/dev-nirob1/reveal-landing-page",
         "category": "Static"
     },
     {
@@ -106,9 +78,37 @@
             "css",
             "Bootstrap"
         ],
-        "image": "/hero.png",
-        "live_link": "https://www.example-social-dashboard.com",
-        "github_link": "https://github.com/your-username/social-media-dashboard",
+        "image": "/projectsImage/Bikerz-zone.png",
+        "live_link": "https://dev-nirob1.github.io/bikerz-zone/",
+        "github_link": "https://github.com/dev-nirob1/bikerz-zone",
+        "category": "Static"
+    },
+    {
+        "id": 6,
+        "title": "E-School",
+        "description": "Designed and implemented a responsive social media dashboard with real-time data updates and interactive charts.",
+        "technologies": [
+            "html",
+            "css",
+            "Bootstrap"
+        ],
+        "image": "/projectsImage/E-School.png",
+        "live_link": "https://dev-nirob1.github.io/E-schools/",
+        "github_link": "https://github.com/dev-nirob1/E-schools",
+        "category": "Static"
+    },
+    {
+        "id": 2,
+        "title": "Portfolio Website",
+        "description": "Designed and built a personal portfolio website to showcase my skills, projects, and experience.",
+        "technologies": [
+            "HTML",
+            "CSS",
+            "Bootstrap"
+        ],
+        "image": "/projectsImage/portfolio.png",
+        "live_link": "https://dev-nirob1.github.io/portfolio/",
+        "github_link": "https://github.com/dev-nirob1/portfolio",
         "category": "Static"
     },
     {
@@ -119,9 +119,9 @@
             "React.js",
             "tailwindcss"
         ],
-        "image": "/hero.png",
-        "live_link": "https://www.example-social-dashboard.com",
-        "github_link": "https://github.com/your-username/social-media-dashboard",
+        "image": "/projectsImage/idea-fountain.png",
+        "live_link": "https://idea-fountain.netlify.app/",
+        "github_link": "https://github.com/dev-nirob1/knowledge-cafe-assignment",
         "category": "React"
     },
     {
@@ -130,17 +130,33 @@
         "description": "Designed and implemented a responsive social media dashboard with real-time data updates and interactive charts.",
         "technologies": [
             "React.js",
-            "tailwindcss",
-            "recharts"
+            "Tailwindcss",
+            "Recharts",
+            "Local-Storage",
+            "React-router"
         ],
-        "image": "/hero.png",
-        "live_link": "https://www.example-social-dashboard.com",
-        "github_link": "https://github.com/your-username/social-media-dashboard",
+        "image": "/projectsImage/job-finder.png",
+        "live_link": "https://job-finder-assingment.netlify.app/",
+        "github_link": "https://github.com/dev-nirob1/career-hub-assignment",
         "category": "React"
     },
     {
         "id": 11,
-        "title": "Toy Store",
+        "title": "Code Editor",
+        "description": "Designed and implemented a responsive social media dashboard with real-time data updates and interactive charts.",
+        "technologies": [
+            "Html",
+            "Tailwindcss",
+            "Javascript"
+        ],
+        "image": "/projectsImage/code-editor.png",
+        "live_link": "https://dev-nirob1.github.io/code-editor/",
+        "github_link": "https://github.com/dev-nirob1/code-editor",
+        "category": "Javascript"
+    },
+    {
+        "id": 12,
+        "title": "Toy Cars",
         "description": "Designed and implemented a responsive social media dashboard with real-time data updates and interactive charts.",
         "technologies": [
             "Tailwindcss",
@@ -151,13 +167,13 @@
             "npm",
             "React-tabs"
         ],
-        "image": "/hero.png",
+        "image": "/projectsImage/toy-cars.png",
         "live_link": "https://www.example-social-dashboard.com",
         "github_link": "https://github.com/your-username/social-media-dashboard",
         "category": "Mern Stack"
     },
     {
-        "id": 12,
+        "id": 13,
         "title": "Tasty Bite",
         "description": "Designed and implemented a responsive social media dashboard with real-time data updates and interactive charts.",
         "technologies": [
@@ -165,13 +181,13 @@
             "React.js",
             "Firebase"
         ],
-        "image": "/hero.png",
+        "image": "/projectsImage/tasty-bite.png",
         "live_link": "https://www.example-social-dashboard.com",
         "github_link": "https://github.com/your-username/social-media-dashboard",
         "category": "React"
     },
     {
-        "id": 13,
+        "id": 14,
         "title": "Accent Adept",
         "description": "Designed and implemented a responsive social media dashboard with real-time data updates and interactive charts.",
         "technologies": [
@@ -182,9 +198,9 @@
             "Express.js",
             "Mongodb"
         ],
-        "image": "/hero.png",
+        "image": "/projectsImage/Accent-adept.png",
         "live_link": "https://www.example-social-dashboard.com",
         "github_link": "https://github.com/your-username/social-media-dashboard",
-        "category": "React"
+        "category": "Mern Stack"
     }
 ]

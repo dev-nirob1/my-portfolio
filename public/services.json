@@ -1,0 +1,32 @@
+[
+    {
+        "image": "/ServicesIcons/figma.png",
+        "category": "Figma to HTML",
+        "description": "Translating Figma designs into clean and efficient HTML, ensuring the fidelity of the original design across various browsers and devices."
+    },
+    {
+        "image": "/ServicesIcons/front-end.png",
+        "category": "Front-end Development",
+        "description": "Building responsive and dynamic user interfaces with a focus on detail using React, ensuring optimal user experiences across various devices and screen sizes."
+    },
+    {
+        "image": "/ServicesIcons/backend.png",
+        "category": "Backend Development",
+        "description": "Implementing basic backend functionality using Node.js and Express.js to support front-end features and enhance overall application interactivity."
+    },
+    {
+        "image": "/ServicesIcons/mongodb.png",
+        "category": "Database Integration",
+        "description": "Exploring the integration of databases like MongoDB for data storage and retrieval in web applications. Eager to gain hands-on experience in crafting efficient solutions for web development."
+    },
+    {
+        "image": "/ServicesIcons/independent.png",
+        "category": "Independent Work",
+        "description": "Capable of independently managing and executing web development tasks. Self-driven and adept at handling various aspects of web projects from inception to completion."
+    },
+    {
+        "image": "/ServicesIcons/problem-solving.png",
+        "category": "Problem Solving",
+        "description": "Dedicated to addressing front-end and back-end development challenges, I focus on crafting innovative solutions for efficient web application development"
+    }
+]

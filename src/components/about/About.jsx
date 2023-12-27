@@ -31,15 +31,15 @@ const imgVariants = {
 
 const About = () => {
     return (
-        <div className='container mx-auto md:h-screen bg-gradient-to-b from-[#111132] to-[#0c0c1d] px-4 md:px-8 lg:px-16 py-5 md:py-10 mb-16'>
+        <div className='container mx-auto bg-gradient-to-b from-[#111132] to-[#0c0c1d] px-4 md:px-8 lg:px-16 py-5 md:py-10 mb-16'>
             <h2 className="text-3xl text-gray-300 md:text-4xl font-bold md:font-extrabold py-5 md:py-10 flex items-center justify-center gap-1">
-                <hr className='w-[50px] border-t-2' />
+            <hr className='w-[50px] border-t-4 rounded text-gray-300' />
                 About Me
             </h2>
-            <div className='grid md:grid-cols-2 items-center justify-center'>
+            <div className='grid grid-cols-1 gap-5 lg:grid-cols-2 items-center justify-center'>
 
                 <motion.figure variants={imgVariants} initial="initial" animate="animate">
-                    <motion.img variants={imgVariants} className='rounded-lg' src="/portfolioImage.png" alt="profile" />
+                    <motion.img variants={imgVariants} className='rounded-lg mx-auto lg:mx-0 md:w-full lg:w-[95%]' src="/portfolioImage.png" alt="profile" />
                 </motion.figure>
 
 

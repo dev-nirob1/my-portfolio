@@ -57,8 +57,8 @@ const Skills = () => {
 
   return (
     <div className="bg-gradient-to-b from-[#0c0c1d] to-[#111132] py-5 md:pb-16 px-4 md:px-8 lg:px-16 text-gray-200">
-      <h2 className="text-3xl text-gray-300 md:text-4xl font-bold md:font-extrabold my-5 md:my-10 flex items-center justify-center gap-1">
-        <hr className='w-[50px] border-t-2' />
+      <h2 className="text-3xl text-gray-300 md:text-4xl font-bold md:font-extrabold my-5 md:my-10 flex items-center justify-center gap-2">
+        <hr className='w-[50px] border-t-4 rounded text-gray-300' />
         Skills
       </h2>
 
@@ -68,15 +68,15 @@ const Skills = () => {
             <img style={{ width: '30px' }} src={skill.path} alt="logo" />
             <div className='w-full'>
               <p>{skill.name}</p>
-              <hr />
+              <hr className="border-t-2 border-gray-400"/>
             </div>
           </motion.div >)
         }
       </motion.div>
 
       <motion.div variants={Variants} initial="initial" animate="animate">
-        <h3 className='flex items-center justify-center gap-1 text-gray-100 text-3xl  md:text-4xl font-bold md:font-extrabold my-5 md:my-10'>
-          <hr className='w-[50px] border-t-2' />
+        <h3 className='flex items-center justify-center gap-1 text-gray-300 text-3xl  md:text-4xl font-bold md:font-extrabold my-5 md:my-10'>
+          <hr className='w-[50px] border-t-4 rounded text-gray-300' />
           Tools
         </h3>
         <motion.div variants={Variants} className='font-medium grid grid-cols-2 items-center justify-center gap-3 md:gap-8'>
@@ -85,7 +85,7 @@ const Skills = () => {
               <img style={{ width: '30px' }} src={tool.path} alt="logo" />
               <div className='w-full'>
                 <p>{tool.name}</p>
-                <hr />
+                <hr className="border-t-2 border-gray-400"/>
               </div>
             </div >)
           }

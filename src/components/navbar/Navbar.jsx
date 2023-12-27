@@ -10,8 +10,8 @@ const Navbar = () => {
     }
 
     return (
-        <div className="fixed w-full container mx-auto z-[999]">
-            <div className="py-5 md:py-0 md:h-24 flex md:flex-row-reverse justify-between items-center mx-5">
+        <div className="fixed md:w-[calc(100%-85px)] container mx-auto shadow-md shadow-[#111132] z-[999]">
+            <div className="py-5 md:py-0 md:h-20 bg-[#0c0c1d] flex md:flex-row-reverse justify-between items-center px-5">
                 <div className="order-1 md:order-2 mr-auto">
                     <motion.h2
                         initial={{ opacity: 0, scale: 0.5 }}
@@ -51,9 +51,7 @@ const Navbar = () => {
                     <li className="p-[7px] hover:bg-gray-300 md:hover:bg-inherit">
                         <a href="#home">Home</a>
                     </li>
-                    <li className="p-[7px] hover:bg-gray-300 md:hover:bg-inherit">
-                        <a href="#about">About</a>
-                    </li>
+                    
                     <li className="p-[7px] hover:bg-gray-300 md:hover:bg-inherit">
                         <a href="#skills">Skills</a>
                     </li>
@@ -67,7 +65,7 @@ const Navbar = () => {
                     <li className="p-[7px] hover:bg-gray-300 md:hover:bg-inherit">
                         <a href="#contact">Contact</a>
                     </li>
-                    <li className="px-4 py-2 border-2  border-[#e7e6e6] hover:bg-gray-200 hover:text-black font-medium rounded-sm hidden md:flex items-center justify-center gap-1">
+                    <li className="transition-all duration-300 px-4 py-2 bg-gradient-to-br from-indigo-800 to-indigo-900 hover:bg-gradient-to-br hover:from-indigo-900 hover:to-indigo-800 text-gray-200 font-medium rounded-sm hidden md:flex items-center justify-center gap-1">
                         <a href="https://github.com/dev-nirob1" target="_blank" rel="noreferrer">Github</a>  <FaGithub />
                     </li>
                 </motion.ul>
@@ -76,7 +74,7 @@ const Navbar = () => {
                     initial={{ opacity: 0, scale: 0.5 }}
                     animate={{ opacity: 1, scale: 1 }}
                     transition={{ duration: 0.5 }}
-                    className="px-4 py-[6px] border-2 order-2 font-medium rounded-sm border-[#e7e6e6] flex items-center justify-center gap-1 md:hidden">
+                    className="px-4 py-[6px] transition-all duration-300 bg-gradient-to-br from-indigo-800 to-indigo-900 hover:bg-gradient-to-br hover:from-indigo-900 hover:to-indigo-800 text-gray-200 order-2 font-medium rounded-sm flex items-center justify-center gap-1 md:hidden">
                     <a href="https://github.com/dev-nirob1" target="_blank" rel="noreferrer">Github</a>
                     <FaGithub />
                 </motion.div>

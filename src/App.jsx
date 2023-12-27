@@ -40,7 +40,6 @@ const App = () => {
       <section className='px-2'>
         <Portfolio />
       </section>
-
       <section id='contact' className='px-2'>
         <Contact />
       </section>

@@ -31,7 +31,7 @@ const imgVariants = {
 
 const Hero = () => {
     return (
-        <div className="md:h-[100vh] pt-16 md:pt-[96px] overflow-hidden px-4 md:px-8 lg:px-16 bg-gradient-to-b from-[#0c0c1d] to-[#111132]">
+        <div className="md:h-[100vh] pt-24 md:pt-[96px] overflow-hidden px-4 md:px-8 lg:px-16 bg-gradient-to-b from-[#0c0c1d] to-[#111132]">
 
             <div className="h-full grid grid-cols-1 md:grid-cols-2 items-center justify-center">
                 <div className="flex text-center md:text-left items-center order-2 md:order-1 justify-center">
@@ -47,9 +47,10 @@ const Hero = () => {
                         </motion.h1>
 
                         <div className="flex items-center justify-center md:justify-start gap-4">
-                            <motion.button variants={textVariants} className="px-2 py-2 md:px-4 md:py-3 bg-transparent border-2 rounded-md font-medium">View My Projects</motion.button>
+                            <motion.button variants={textVariants} className="transition-all duration-300 px-2 py-2 md:px-4 md:py-3 bg-gradient-to-br from-indigo-800 to-indigo-950 text-gray-200 hover:bg-gradient-to-br hover:from-indigo-950 hover:to-indigo-800 rounded-md font-medium"
+                            >My Projects</motion.button>
 
-                            <motion.button variants={textVariants} className="px-2 py-2 md:px-4 md:py-3 bg-white text-neutral-800 hover:text-white hover:bg-transparent border-2 rounded-md font-medium">Get in Touch</motion.button>
+                            <motion.button variants={textVariants} className="transition-all duration-300 px-2 py-2 md:px-4 md:py-3 bg-gray-200 text-neutral-800 hover:text-gray-300 hover:bg-gradient-to-br from-indigo-800 to-indigo-950 rounded-md font-medium">Get in Touch</motion.button>
                         </div>
 
                     </motion.div>
