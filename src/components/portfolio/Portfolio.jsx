@@ -8,7 +8,7 @@ const Portfolio = () => {
   const [tabIndex, setTabIndex] = useState(0);
   const [projects, setProjects] = useState([]);
 
-  const projectsCategory = ['React', 'Javascript', 'Mern Stack', 'Static'];
+  const projectsCategory = ['React', 'Mern Stack', 'Javascript', 'Static'];
   useEffect(() => {
     fetch('/data.json')
       .then((res) => res.json())
@@ -22,7 +22,7 @@ const Portfolio = () => {
   );
 
   return (
-    <div className='my-10'>
+    <div id="portfolio" className='my-10'>
       <SectionTitle
         heading="My Projects"
         subHeading="The Evolution of My Portfolio

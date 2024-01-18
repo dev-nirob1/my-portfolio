@@ -36,7 +36,7 @@ const Navbar = () => {
                     animate={{ opacity: 1, scale: 1 }}
                     transition={{ duration: 0.5 }}
 
-                    className={`${open ? "block" : "hidden"} text-neutral-900 text-center md:text-left pt-16 md:pt-0 md:text-[#d3d3d3] h-screen md:h-auto w-1/2 md:w-auto z-1 bg-[#e7e6e6] md:bg-transparent space-y-1 md:space-y-0 absolute md:static top-0 left-0 md:flex gap-4 font-medium text-lg ml-0`}>
+                    className={`${open ? "block" : "hidden"} text-center md:text-left pt-16 md:pt-0 text-[#d3d3d3] h-screen md:h-auto w-1/2 md:w-auto z-1 bg-[#0c0c1d] md:bg-transparent space-y-1 md:space-y-0 absolute lg:static top-0 left-0 md:flex gap-4 font-medium text-lg ml-0`}>
 
                     <li className="my-2 block md:hidden">
                         <motion.h2

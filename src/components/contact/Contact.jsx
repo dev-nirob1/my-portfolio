@@ -27,7 +27,7 @@ const Contact = () => {
     };
 
     return (
-        <div className="min-h-screen bg-gradient-to-b from-[#111132] to-[#0c0c1d] text-white px-4 md:px-8 lg:px-16 py-5">
+        <div className="min-h-screen bg-gradient-to-b from-[#0c0c1d] to-[#111132] text-white px-4 md:px-8 lg:px-16 py-5">
             <h2 className="text-3xl text-gray-300 md:text-4xl font-bold md:font-extrabold py-5 md:py-10 flex items-center justify-center gap-1">
             <hr className='w-[50px] border-t-4 rounded text-gray-300' />
                 Contact Me
@@ -81,7 +81,7 @@ const Contact = () => {
                                 id="name"
                                 name="name"
                                 className="mt-1 p-2 w-full border rounded-sm border-gray-600 bg-transparent text-gray-200 focus:outline-none focus:border-indigo-800"
-                                placeholder="John Doe" required
+                                placeholder="Your Name" required
                             />
                         </div>
 
@@ -94,7 +94,7 @@ const Contact = () => {
                                 id="email"
                                 name="email"
                                 className="mt-1 p-2 w-full border rounded-sm border-gray-600 bg-transparent text-gray-200 focus:outline-none focus:border-indigo-800"
-                                placeholder="john@example.com" required
+                                placeholder="example@email.com" required
                             />
                         </div>
 
@@ -119,7 +119,7 @@ const Contact = () => {
                         <div className='flex items-center justify-end'>
                             <button
                                 type="submit"
-                                className="bg-[#0c0c1d] transition-all duration-300 font-medium border border-gray-800 hover:bg-gradient-to-r from-indigo-900 to-indigo-950 rounded text-gray-300 hover:border-indigo-800 shadow-md hover:shadow-indigo-900 py-[10px] px-5"
+                                className="bg-[#0c0c1d] transition-all duration-300 font-medium border border-indigo-800 hover:bg-gradient-to-r from-indigo-900 to-indigo-950 rounded text-gray-300 hover:border-indigo-800 shadow-md hover:shadow-indigo-900 py-[10px] px-5"
                             >
                                 Send Message
                             </button>

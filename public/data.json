@@ -2,7 +2,7 @@
     {
         "id": 1,
         "title": "Legal Solution",
-        "description": "Developed a full-fledged e-commerce platform with features such as product listing, user authentication, and secure payment processing.",
+        "description": "Legal Solution's static landing page elegantly presents a user-friendly gateway to comprehensive legal services, combining modern design with seamless functionality for an intuitive experience.",
         "technologies": [
             "Html",
             "tailwindcss",
@@ -14,51 +14,9 @@
         "category": "Static"
     },
     {
-        "id": 3,
-        "title": "Temperature app",
-        "description": "Created a weather application that provides real-time weather information based on user location or search input.",
-        "technologies": [
-            "Html",
-            "Css",
-            "Javascript"
-        ],
-        "image": "/projectsImage/temperature-app.png",
-        "live_link": "https://dev-nirob1.github.io/temperature-app/",
-        "github_link": "https://github.com/dev-nirob1/temperature-app",
-        "category": "Javascript"
-    },
-    {
-        "id": 4,
-        "title": "Ai universe hub",
-        "description": "Built a task manager application with features for task creation, completion tracking, and priority assignment.",
-        "technologies": [
-            "html",
-            "tailwindcss",
-            "Javascript"
-        ],
-        "image": "/projectsImage/ai-universe.png",
-        "live_link": "https://a-universehub-assignment.netlify.app/",
-        "github_link": "https://github.com/dev-nirob1/ai-universe",
-        "category": "Javascript"
-    },
-    {
-        "id": 5,
-        "title": "Geometry Genius",
-        "description": "Developed a blogging platform that allows users to create, edit, and publish articles with rich text editing capabilities.",
-        "technologies": [
-            "html",
-            "tailwindcss",
-            "Javascript"
-        ],
-        "image": "/projectsImage/geometry-genius.png",
-        "live_link": "https://geometry-genius-assign.netlify.app/",
-        "github_link": "https://github.com/your-username/blog-platform",
-        "category": "Javascript"
-    },
-    {
-        "id": 7,
+        "id": 2,
         "title": "Reveal Landing page",
-        "description": "Designed and implemented a responsive social media dashboard with real-time data updates and interactive charts.",
+        "description": "Take a look at Reveal, a landing page I designed. It's all about discovery with a sleek design and features that are easy to use. Explore and enjoy the simplicity and style it brings.",
         "technologies": [
             "html",
             "css",
@@ -70,9 +28,38 @@
         "category": "Static"
     },
     {
-        "id": 8,
+        "id": 3,
+        "title": "Daraz-Home Page Clone",
+        "description": "Presenting my Daraz Home Page Clone—a static replica of an e-commerce website's homepage. This project mirrors the design and layout of the original, showcasing my skills in creating a visually appealing and functional e-commerce interface.",
+        "technologies": [
+            "html",
+            "css",
+            "Bootstrap"
+        ],
+        "image": "/projectsImage/daraz.com.bd.png",
+        "live_link": "https://dev-nirob1.github.io/Daraz-home-page/",
+        "github_link": "https://github.com/dev-nirob1/Daraz-home-page",
+        "category": "Static"
+    },
+    {
+        "id": 4,
+        "title": "E-School",
+        "description": "Introducing e-School, a learning-focused website that I've converted from Figma. This static webpage mirrors the original design and serves as a digital space for education, emphasizing a seamless transition from design to a functional learning platform.",
+        "technologies": [
+            "html",
+            "css",
+            "Bootstrap",
+            "figma-html"
+        ],
+        "image": "/projectsImage/E-School.png",
+        "live_link": "https://dev-nirob1.github.io/E-schools/",
+        "github_link": "https://github.com/dev-nirob1/E-schools",
+        "category": "Static"
+    },
+    {
+        "id": 5,
         "title": "Bikerz-zone",
-        "description": "Designed and implemented a responsive social media dashboard with real-time data updates and interactive charts.",
+        "description": "Discover Bikerz-Zone, a static webpage where you can find a diverse selection of bikes for sale. Offering a straightforward design, this platform provides an easy and enjoyable experience for those in search of their ideal motorcycle.",
         "technologies": [
             "html",
             "css",
@@ -85,22 +72,8 @@
     },
     {
         "id": 6,
-        "title": "E-School",
-        "description": "Designed and implemented a responsive social media dashboard with real-time data updates and interactive charts.",
-        "technologies": [
-            "html",
-            "css",
-            "Bootstrap"
-        ],
-        "image": "/projectsImage/E-School.png",
-        "live_link": "https://dev-nirob1.github.io/E-schools/",
-        "github_link": "https://github.com/dev-nirob1/E-schools",
-        "category": "Static"
-    },
-    {
-        "id": 2,
         "title": "Portfolio Website",
-        "description": "Designed and built a personal portfolio website to showcase my skills, projects, and experience.",
+        "description": "Check out this simple portfolio website I designed. It's a clean and straightforward representation of work, featuring a minimalist design that focuses on showcasing projects and skills effectively.",
         "technologies": [
             "HTML",
             "CSS",
@@ -112,41 +85,54 @@
         "category": "Static"
     },
     {
-        "id": 9,
-        "title": "Idea Fountain",
-        "description": "Designed and implemented a responsive social media dashboard with real-time data updates and interactive charts.",
+        "id": 7,
+        "title": "Temperature app",
+        "description": "Introducing the Temperature App - a dynamic webpage utilizing a third-party API to provide real-time temperature data. As a free service, keep in mind that occasional variations in data may occur, offering users an informative and up-to-date experience.",
         "technologies": [
-            "React.js",
-            "tailwindcss"
+            "Html",
+            "Css",
+            "Javascript"
         ],
-        "image": "/projectsImage/idea-fountain.png",
-        "live_link": "https://idea-fountain.netlify.app/",
-        "github_link": "https://github.com/dev-nirob1/knowledge-cafe-assignment",
-        "category": "React"
+        "image": "/projectsImage/temperature-app.png",
+        "live_link": "https://dev-nirob1.github.io/temperature-app/",
+        "github_link": "https://github.com/dev-nirob1/temperature-app",
+        "category": "Javascript"
+    },
+    {
+        "id": 8,
+        "title": "Ai universe hub",
+        "description": "Welcome to AI Universe Hub, where I've integrated APIs in JavaScript to fetch data on familiar sources like ChatGPT and Google Bird. This dynamic webpage provides insights into notable AI features, creating a hub for exploring and understanding these technologies",
+        "technologies": [
+            "html",
+            "tailwindcss",
+            "Javascript"
+        ],
+        "image": "/projectsImage/ai-universe.png",
+        "live_link": "https://a-universehub-assignment.netlify.app/",
+        "github_link": "https://github.com/dev-nirob1/ai-universe",
+        "category": "Javascript"
+    },
+    {
+        "id": 9,
+        "title": "Geometry Genius",
+        "description": "Geometry Genius - a dynamic webpage that calculates geometry data based on user inputs. Simply input your data, and this interactive tool will provide real-time output, making geometry calculations easy and accessible.",
+        "technologies": [
+            "html",
+            "tailwindcss",
+            "Javascript"
+        ],
+        "image": "/projectsImage/geometry-genius.png",
+        "live_link": "https://geometry-genius-assign.netlify.app/",
+        "github_link": "https://github.com/your-username/blog-platform",
+        "category": "Javascript"
     },
     {
         "id": 10,
-        "title": "Job Finder",
-        "description": "Designed and implemented a responsive social media dashboard with real-time data updates and interactive charts.",
-        "technologies": [
-            "React.js",
-            "Tailwindcss",
-            "Recharts",
-            "Local-Storage",
-            "React-router"
-        ],
-        "image": "/projectsImage/job-finder.png",
-        "live_link": "https://job-finder-assingment.netlify.app/",
-        "github_link": "https://github.com/dev-nirob1/career-hub-assignment",
-        "category": "React"
-    },
-    {
-        "id": 11,
         "title": "Code Editor",
-        "description": "Designed and implemented a responsive social media dashboard with real-time data updates and interactive charts.",
+        "description": "A versatile Text Editor designed using JavaScript. This user-friendly tool allows you to modify text effortlessly - from adjusting font size and color to changing alignment. Explore a simple yet powerful way to customize and enhance your text.",
         "technologies": [
             "Html",
-            "Tailwindcss",
+            "Tailwind CSS",
             "Javascript"
         ],
         "image": "/projectsImage/code-editor.png",
@@ -155,52 +141,101 @@
         "category": "Javascript"
     },
     {
-        "id": 12,
-        "title": "Toy Cars",
-        "description": "Designed and implemented a responsive social media dashboard with real-time data updates and interactive charts.",
+        "id": 11,
+        "title": "Job Finder",
+        "description": "Experience the Job Finder, a React-based application where users can seamlessly apply for jobs. Utilizing local storage to store essential data, and incorporating React routes for a smooth navigation experience, this project streamlines the job application process, ensuring efficiency and user-friendly interactions.",
         "technologies": [
-            "Tailwindcss",
             "React.js",
-            "Firebase",
-            "Express.js",
-            "Mongodb",
-            "npm",
-            "React-tabs"
+            "Tailwind CSS",
+            "Local-Storage",
+            "React-router",
+            "Recharts"
         ],
-        "image": "/projectsImage/toy-cars.png",
-        "live_link": "https://www.example-social-dashboard.com",
-        "github_link": "https://github.com/your-username/social-media-dashboard",
-        "category": "Mern Stack"
+        "image": "/projectsImage/job-finder.png",
+        "live_link": "https://job-finder-assingment.netlify.app/",
+        "github_link": "https://github.com/dev-nirob1/career-hub-assignment",
+        "category": "React"
     },
     {
-        "id": 13,
+        "id": 12,
         "title": "Tasty Bite",
-        "description": "Designed and implemented a responsive social media dashboard with real-time data updates and interactive charts.",
+        "description": "Explore Tasty Bite, where the backend solely provides data, and user authentication is seamlessly managed through Firebase. This project simplifies the user experience by leveraging Firebase for secure and efficient authentication, allowing users to access and interact with the provided data effortlessly.",
         "technologies": [
-            "tailwindcss",
             "React.js",
+            "Tailwind CSS",
             "Firebase"
         ],
         "image": "/projectsImage/tasty-bite.png",
-        "live_link": "https://www.example-social-dashboard.com",
-        "github_link": "https://github.com/your-username/social-media-dashboard",
+        "live_link": "https://tasty-bite-auth.web.app/",
+        "github_link": "https://github.com/dev-nirob1/tasty-bite-client",
+        "category": "React"
+    },
+    {
+        "id": 13,
+        "title": "Lush Garden Landing Page",
+        "description": "Discover the serenity of Lush Garden, a static landing page designed in React.js where all the enchanting data is seamlessly fetched from a JSON file. Immerse yourself in the beauty of nature through this intuitive and dynamic React-based webpage.",
+        "technologies": [
+            "React.js",
+            "CSS",
+            "tailwind CSS",
+            "tanstack/React-query",
+            "framer-motion"
+        ],
+        "image": "/projectsImage/lush-garden.png",
+        "live_link": "https://lush-garden.netlify.app/",
+        "github_link": "https://github.com/dev-nirob1/lush-garden",
         "category": "React"
     },
     {
         "id": 14,
-        "title": "Accent Adept",
-        "description": "Designed and implemented a responsive social media dashboard with real-time data updates and interactive charts.",
+        "title": "Idea Fountain",
+        "description": "Idea Fountain - a single-page React application that combines elements of a blog with interactive features. Explore dynamic content where clickable buttons trigger changes in data, providing an engaging and unique user experience within the simplicity of a static blog-like website",
         "technologies": [
-            "tailwindcss",
             "React.js",
+            "tailwind CSS"
+        ],
+        "image": "/projectsImage/idea-fountain.png",
+        "live_link": "https://idea-fountain.netlify.app/",
+        "github_link": "https://github.com/dev-nirob1/knowledge-cafe-assignment",
+        "category": "React"
+    },
+  
+    {
+        "id": 15,
+        "title": "Toy Cars",
+        "description": "Discover Toy Cars, a dynamic website built with Node.js, focusing on CRUD operations for logged-in users. With a secure authentication system powered by Firebase, users can seamlessly add, update, and view their toy car listings. This streamlined approach provides a user-friendly platform for managing and showcasing toy cars.",
+        "technologies": [
+            "React.js",
+            "Tailwind CSS",
+            "Firebase",
+            "Express.js",
+            "Mongodb",
+            "npm packages"
+        ],
+        "image": "/projectsImage/toy-cars.png",
+        "live_link": "https://toycars-fa210.web.app/",
+        "github_link": "https://github.com/dev-nirob1/toy-store-client",
+        "github_server": "https://github.com/dev-nirob1/toy-store-server",
+        "category": "Mern Stack"
+    },
+    {
+        "id": 16,
+        "title": "Accent Adept",
+        "description": "Accent Adept stands as a fully functional application with distinct dashboards for users, instructors, and admin. The backend, powered by Node.js and secured with JWT, ensures the safe and reliable transfer of data. Firebase handles the robust authentication system, providing a seamless and secure experience across the various user roles within the platform.",
+        "technologies": [
+            "React.js",
+            "Tailwind CSS",
             "Firebase",
             "Node.js",
             "Express.js",
-            "Mongodb"
+            "Mongodb",
+            "jwt",
+            "npm packages"
         ],
         "image": "/projectsImage/Accent-adept.png",
-        "live_link": "https://www.example-social-dashboard.com",
-        "github_link": "https://github.com/your-username/social-media-dashboard",
+        "live_link": "https://accent-adept.netlify.app/",
+        "github_link": "https://github.com/dev-nirob1/Accent-adept-client",
+        "github_server": "https://github.com/dev-nirob1/Accent-adept-server",
         "category": "Mern Stack"
     }
 ]
