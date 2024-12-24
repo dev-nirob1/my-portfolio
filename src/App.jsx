@@ -2,6 +2,7 @@ import './App.css'
 import About from './components/about/About';
 import Chatbot from './components/chatbot/chatbot';
 import Contact from './components/contact/Contact';
+import Footer from './components/footer/Footer';
 import Hero from './components/hero/Hero';
 import Navbar from './components/navbar/Navbar';
 // import Parallax from './components/parallax/Parallax';
@@ -42,6 +43,9 @@ const App = () => {
       </section>
       <section id='contact' className='px-2'>
         <Contact />
+      </section>
+      <section className='px-2'>
+        <Footer />
       </section>
       <Chatbot />
     </div>

@@ -30,6 +30,7 @@ import vsCode from '/vs-code.png'
 import figma from '/figma.png'
 import chatgpt from '/chatgpt.png'
 import firebase from '/firebase.png'
+import redux from '/redux.png'
 
 
 const Skills = () => {
@@ -41,6 +42,7 @@ const Skills = () => {
     { name: 'Bootstrap', path: `${bootstrap}` },
     { name: 'JavaScript', path: `${javascript}` },
     { name: 'React.js', path: `${reactIcon}` },
+    { name: 'Redux-Toolkit', path: `${redux}` },
     { name: 'Node.js', path: `${node}` },
     { name: 'Express.js', path: `${expressjs}` },
     { name: 'MongoDB', path: `${mongodb}` },

@@ -47,16 +47,16 @@ const Hero = () => {
                         </motion.h1>
 
                         <div className="flex items-center justify-center md:justify-start gap-4">
-                            <motion.button variants={textVariants} className="transition-all duration-300 px-2 py-2 md:px-4 md:py-3 bg-gradient-to-br from-indigo-800 to-indigo-950 text-gray-200 hover:bg-gradient-to-br hover:from-indigo-950 hover:to-indigo-800 rounded-md font-medium"
-                            >My Projects</motion.button>
+                            <motion.a href="#portfolio" variants={textVariants} className="transition-all duration-300 px-2 py-2 md:px-4 md:py-3 bg-gradient-to-br from-indigo-800 to-indigo-950 text-gray-200 hover:bg-gradient-to-br hover:from-indigo-950 hover:to-indigo-800 rounded-md font-medium"
+                            >My Projects</motion.a>
 
-                            <motion.button variants={textVariants} className="transition-all duration-300 px-2 py-2 md:px-4 md:py-3 bg-gray-200 text-neutral-800 hover:text-gray-300 hover:bg-gradient-to-br from-indigo-800 to-indigo-950 rounded-md font-medium">Get in Touch</motion.button>
+                            <motion.a href="resume/resume1.pdf" download='nirob_resume.pdf' variants={textVariants} className="transition-all duration-300 px-2 py-2 md:px-4 md:py-3 bg-gray-200 text-neutral-800 hover:text-gray-300 hover:bg-gradient-to-br from-indigo-800 to-indigo-950 rounded-md font-medium">Resume</motion.a>
                         </div>
 
                     </motion.div>
                 </div>
                 <motion.div variants={imgVariants} initial="initial" animate="animate" className="h-full w-full flex items-center order-1">
-                    <motion.img variants={imgVariants} className="w-[280px] md:w-[320px] lg:w-[450px] md:h-[320px] lg:h-[450px] mx-auto rounded-full" src="/portfolioImage.png" alt="profile" />
+                    <motion.img variants={imgVariants} className="w-[280px] md:w-[320px] lg:w-[450px] md:h-[320px] lg:h-[450px] mx-auto rounded-full" src="/profileImage.png" alt="profile" />
                 </motion.div>
             </div>
         </div>

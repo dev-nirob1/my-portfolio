@@ -39,7 +39,7 @@ const About = () => {
             <div className='grid grid-cols-1 gap-5 lg:grid-cols-2 items-center justify-center'>
 
                 <motion.figure variants={imgVariants} initial="initial" animate="animate">
-                    <motion.img variants={imgVariants} className='rounded-lg mx-auto lg:mx-0 md:w-full lg:w-[95%]' src="/portfolioImage.png" alt="profile" />
+                    <motion.img variants={imgVariants} className='rounded-lg mx-auto lg:mx-0 md:w-full lg:w-[95%]' src="/about.jpg" alt="profile" />
                 </motion.figure>
 
 
@@ -48,7 +48,7 @@ const About = () => {
                         Hi, I&apos;m Al Hasan Nirob, a passionate front-end web developer currently pursuing BBA Management at Govt. Azizul Haque College. I started my journey into the world of technology and programming by successfully completing my SSC examination in 2018 from Sariakandi Govt High School, followed by my HSC examination in 2021 at Govt. Azizul Haque College.
                     </motion.p>
                     <motion.p variants={textVariants} className="mt-4">
-                        Over the last 1.5 years, I&apos;ve immersed myself in the exciting realm of web development. While my primary focus is on front-end technologies, I&apos;m also familiar with backend technologies like Node.js and Express.js. I can build full-stack applications using the basics, creating seamless and integrated user experiences.
+                        Over the last few years, I&apos;ve immersed myself in the exciting realm of web development. While my primary focus is on front-end technologies, I&apos;m also familiar with backend technologies like Node.js and Express.js. I can build full-stack applications using the basics (backend), creating seamless and integrated user experiences.
                     </motion.p>
                     <motion.p variants={textVariants} className="mt-4">
                         With a passion for crafting beautiful and user-friendly interfaces, I am dedicated to delivering exceptional digital experiences. Join me on this exciting journey as I continue to explore and contribute to the ever-evolving world of web development.
@@ -62,8 +62,8 @@ const About = () => {
                             <img src="/linkedin.png" alt="linkedin link" />
                         </a>
 
-                        <a className='hover:-translate-y-2 transition-all duration-500' href="https://github.com/dev-nirob1" target="_blank" rel="noreferrer">
-                            <img src="/github-1.png" alt="github link" />
+                        <a className='hover:-translate-y-2 transition-all duration-500 bg-white rounded-full' href="https://github.com/dev-nirob1" target="_blank" rel="noreferrer">
+                            <img src="/github.png" alt="github link" />
                         </a>
                     </motion.d>
                 </motion.div>

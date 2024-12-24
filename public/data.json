@@ -2,7 +2,7 @@
     {
         "id": 1,
         "title": "Legal Solution",
-        "description": "Legal Solution's static landing page elegantly presents a user-friendly gateway to comprehensive legal services, combining modern design with seamless functionality for an intuitive experience.",
+        "description": "Legal Solution is a static replica of a legal services landing page, designed with modern aesthetics using Tailwind CSS and Flowbite for a visually appealing user experience.",
         "technologies": [
             "Html",
             "tailwindcss",
@@ -30,7 +30,7 @@
     {
         "id": 3,
         "title": "Daraz-Home Page Clone",
-        "description": "Presenting my Daraz Home Page Clone—a static replica of an e-commerce website's homepage. This project mirrors the design and layout of the original, showcasing my skills in creating a visually appealing and functional e-commerce interface.",
+        "description": "A static replica of an e-commerce homepage, mirroring the original design and layout to showcase my skills in creating a visually appealing and functional interface.",
         "technologies": [
             "html",
             "css",
@@ -40,11 +40,12 @@
         "live_link": "https://dev-nirob1.github.io/Daraz-home-page/",
         "github_link": "https://github.com/dev-nirob1/Daraz-home-page",
         "category": "Static"
-    },
+    }
+    ,
     {
         "id": 4,
         "title": "E-School",
-        "description": "Introducing e-School, a learning-focused website that I've converted from Figma. This static webpage mirrors the original design and serves as a digital space for education, emphasizing a seamless transition from design to a functional learning platform.",
+        "description": "A learning-focused website that I've converted from Figma. This static webpage mirrors the original design and serves as a digital space for education, emphasizing a seamless transition from design to a functional learning platform.",
         "technologies": [
             "html",
             "css",
@@ -202,17 +203,18 @@
   
     {
         "id": 15,
-        "title": "Toy Cars",
-        "description": "Discover Toy Cars, a dynamic website built with Node.js, focusing on CRUD operations for logged-in users. With a secure authentication system powered by Firebase, users can seamlessly add, update, and view their toy car listings. This streamlined approach provides a user-friendly platform for managing and showcasing toy cars.",
+        "title": "Toy Store",
+        "description": "Toy Store is a dynamic website where users can explore toys for kids, categorized by type. It features a CRUD system with a secure login and registration, allowing logged-in users to add, update, and delete their toy listings.",
         "technologies": [
             "React.js",
+            "Redux-Toolkit",
             "Tailwind CSS",
             "Firebase",
             "Express.js",
             "Mongodb",
             "npm packages"
         ],
-        "image": "/projectsImage/toy-cars.png",
+        "image": "/projectsImage/toy-store.png",
         "live_link": "https://toycars-fa210.web.app/",
         "github_link": "https://github.com/dev-nirob1/toy-store-client",
         "github_server": "https://github.com/dev-nirob1/toy-store-server",
@@ -221,10 +223,12 @@
     {
         "id": 16,
         "title": "Accent Adept",
-        "description": "Accent Adept stands as a fully functional application with distinct dashboards for users, instructors, and admin. The backend, powered by Node.js and secured with JWT, ensures the safe and reliable transfer of data. Firebase handles the robust authentication system, providing a seamless and secure experience across the various user roles within the platform.",
+        "description": "Accent Adept is a platform where students can enroll in courses, manage roles (admin, author, student), and make payments via Stripe. The backend is built with Express, Node.js, and JWT-secured APIs, while MongoDB stores the data.",
         "technologies": [
             "React.js",
             "Tailwind CSS",
+            "TanStack Query",
+            "Axios",
             "Firebase",
             "Node.js",
             "Express.js",
@@ -237,5 +241,30 @@
         "github_link": "https://github.com/dev-nirob1/Accent-adept-client",
         "github_server": "https://github.com/dev-nirob1/Accent-adept-server",
         "category": "Mern Stack"
+    },
+    
+    {
+        "id": 17,
+        "title": "Blog Express",
+        "description": "Blog Express is a blog platform featuring a login and registration system, role-based dashboards, profile management, dynamic categories, recent blogs, search functionality, and pagination for enhanced content management.",
+        "technologies": [
+            "React.js",
+            "Tailwind CSS",
+            "Firebase",
+            "Node.js",
+            "Express.js",
+            "Mongodb",
+            "TanStack Query",
+            "Axios",
+            "npm packages"
+        ],
+        "image": "/projectsImage/blog-express.png",
+        "live_link": "https://blog-express-a0e83.web.app/",
+        "github_link": "https://github.com/dev-nirob1/blog-express-client",
+        "github_server": "https://github.com/dev-nirob1/blog-express-server",
+        "category": "Mern Stack"
     }
+    
+    
+    
 ]

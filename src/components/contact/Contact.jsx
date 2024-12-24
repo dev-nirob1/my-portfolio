@@ -45,7 +45,7 @@ const Contact = () => {
                             <img style={{ width: '30px' }} src={envelop} alt="email link" />
                             <div>
                                 <p>Email</p>
-                                <p className='text-sm hover:text-gray-300'><a href="mailto:dev.nirob1@gmail.com">dev.nirob1@gmail.com</a></p>
+                                <p className='text-sm hover:text-gray-300'><a href="mailto:dev.nirob1@gmail.com">me.nirob01@gmail.com</a></p>
                             </div>
                         </div>
 
