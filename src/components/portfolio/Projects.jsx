@@ -15,17 +15,17 @@ const Projects = ({ project }) => {
                 </div>
                 <div>
                     <p className="text-gray-400 my-6 text-justify">{description}</p>
-                    <div className="flex items-center justify-center gap-3 mt-auto">
+                    <div className="flex items-center justify-center gap-1 lg:gap-3 flex-wrap mt-auto">
 
-                        <a className="bg-[#0c0c1d] transition-all duration-300 font-medium text-nowrap whitespace-nowrap border border-gray-800 hover:bg-gradient-to-r from-indigo-950 to-indigo-900 rounded text-gray-300 hover:border-indigo-800 shadow-md hover:shadow-indigo-900 py-[10px] px-3 md:px-5" href={live_link} target="_blank" rel="noreferrer">
-                            Live <FaRegEye size={20} className="inline ml-1" />
+                        <a className="flex items-center justify-center gap-1 bg-[#0c0c1d] transition-all duration-300 font-medium text-wrap whitespace-nowrap border border-gray-800 hover:bg-gradient-to-r from-indigo-950 to-indigo-900 rounded text-gray-300 hover:border-indigo-800 shadow-md hover:shadow-indigo-900 py-[10px] px-2 md:px-5" href={live_link} target="_blank" rel="noreferrer">
+                            Live <FaRegEye size={20} />
                         </a>
-                        <a className="bg-[#0c0c1d] transition-all duration-300 font-medium text-nowrap whitespace-nowrap border border-gray-800 hover:bg-gradient-to-r from-indigo-900 to-indigo-950 rounded text-gray-300 hover:border-indigo-800 shadow-md hover:shadow-indigo-900 py-[10px] px-3 md:px-5" href={github_link} target="_blank" rel="noreferrer">
-                            Github <FaGithub size={20} className="inline ml-1" />
+                        <a className="flex items-center justify-center gap-1 bg-[#0c0c1d] transition-all duration-300 font-medium text-wrap whitespace-nowrap border border-gray-800 hover:bg-gradient-to-r from-indigo-900 to-indigo-950 rounded text-gray-300 hover:border-indigo-800 shadow-md hover:shadow-indigo-900 py-[10px] px-2 md:px-5" href={github_link} target="_blank" rel="noreferrer">
+                            Client <FaGithub size={20} />
                         </a>
 
-                        {github_server && <a className="bg-[#0c0c1d] transition-all duration-300 font-medium text-nowrap whitespace-nowrap border border-gray-800 hover:bg-gradient-to-b from-indigo-950 to-indigo-900 rounded text-gray-300 hover:border-indigo-800 shadow-md hover:shadow-indigo-900 py-[10px] px-3 md:px-5" href={github_server} target="_blank" rel="noreferrer">
-                            Server <FaGithub size={20} className="inline ml-1" />
+                        {github_server && <a className="flex items-center justify-center gap-1 bg-[#0c0c1d] transition-all duration-300 font-medium text-wrap whitespace-nowrap border border-gray-800 hover:bg-gradient-to-b from-indigo-950 to-indigo-900 rounded text-gray-300 hover:border-indigo-800 shadow-md hover:shadow-indigo-900 py-[10px] px-2 md:px-5" href={github_server} target="_blank" rel="noreferrer">
+                            Server <FaGithub size={20} />
                         </a>}
 
                     </div>
