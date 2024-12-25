@@ -27,7 +27,7 @@ const Contact = () => {
     };
 
     return (
-        <div className="min-h-screen bg-gradient-to-b from-[#0c0c1d] to-[#111132] text-white px-4 md:px-8 lg:px-16 py-5">
+        <div className="max-h-screen bg-gradient-to-b from-[#0c0c1d] to-[#111132] text-white px-4 md:px-8 lg:px-16 py-5">
             <h2 className="text-3xl text-gray-300 md:text-4xl font-bold md:font-extrabold py-5 md:py-10 flex items-center justify-center gap-1">
             <hr className='w-[50px] border-t-4 rounded text-gray-300' />
                 Contact Me
