@@ -1,6 +1,6 @@
 import './App.css'
 import About from './components/about/About';
-import Chatbot from './components/chatbot/chatbot';
+import Chatbot from './components/chatbot/Chatbot';
 import Contact from './components/contact/Contact';
 import Footer from './components/footer/Footer';
 import Hero from './components/hero/Hero';
@@ -13,9 +13,10 @@ import Skills from './components/skills/Skills';
 const App = () => {
   return (
     <div className='container mx-auto'>
-
-      <section id='home' className='md:px-2'>
+      <header className='px-2 sticky top-0 z-[999]'>
         <Navbar></Navbar>
+      </header>
+      <section id='home' className='md:px-2'>
         <Hero></Hero>
       </section>
 

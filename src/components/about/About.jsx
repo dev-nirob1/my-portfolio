@@ -53,19 +53,19 @@ const About = () => {
                     <motion.p variants={textVariants} className="mt-4">
                         With a passion for crafting beautiful and user-friendly interfaces, I am dedicated to delivering exceptional digital experiences. Join me on this exciting journey as I continue to explore and contribute to the ever-evolving world of web development.
                     </motion.p>
-                    <motion.d variants={textVariants} iv className='flex gap-4 mt-4'>
-                        <a className='hover:-translate-y-2 transition-all duration-500' href="https://www.facebook.com/alhasan.nirob.1/" target="_blank" rel="noreferrer">
-                            <img src="/facebook.png" alt="facebook link" />
+                    <motion.div variants={textVariants} iv className='flex items-center gap-4 mt-4'>
+                        <a className='hover:-translate-y-2 transition-all duration-500 h-12 w-12' href="https://www.facebook.com/alhasan.nirob.1/" target="_blank" rel="noreferrer">
+                            <img className="w-full h-full" src="/facebook.png" alt="facebook link" />
                         </a>
 
-                        <a className='hover:-translate-y-2 transition-all duration-500' href="https://www.linkedin.com/in/al-hasan-nirob10925/" target="_blank" rel="noreferrer">
-                            <img src="/linkedin.png" alt="linkedin link" />
+                        <a className='hover:-translate-y-2 transition-all duration-500 h-12 w-12' href="https://www.linkedin.com/in/al-hasan-nirob10925/" target="_blank" rel="noreferrer">
+                            <img className="w-full h-full" src="/linkedin.png" alt="linkedin link" />
                         </a>
 
-                        <a className='hover:-translate-y-2 transition-all duration-500 bg-white rounded-full' href="https://github.com/dev-nirob1" target="_blank" rel="noreferrer">
-                            <img src="/github.png" alt="github link" />
+                        <a className='hover:-translate-y-2 transition-all duration-500 bg-white rounded-full h-10 w-10' href="https://github.com/dev-nirob1" target="_blank" rel="noreferrer">
+                            <img className="w-full h-full" src="/github.png" alt="github link" />
                         </a>
-                    </motion.d>
+                    </motion.div>
                 </motion.div>
             </div>
         </div>
