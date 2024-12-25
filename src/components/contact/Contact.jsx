@@ -27,14 +27,14 @@ const Contact = () => {
     };
 
     return (
-        <div className="max-h-screen bg-gradient-to-b from-[#0c0c1d] to-[#111132] text-white px-4 md:px-8 lg:px-16 py-5">
+        <div className="min-h-screen bg-gradient-to-b from-[#0c0c1d] to-[#111132] text-white px-4 md:px-8 lg:px-16 py-5">
             <h2 className="text-3xl text-gray-300 md:text-4xl font-bold md:font-extrabold py-5 md:py-10 flex items-center justify-center gap-1">
             <hr className='w-[50px] border-t-4 rounded text-gray-300' />
                 Contact Me
             </h2>
             <div className="container mx-auto p-2 grid justify-center grid-cols-1 md:grid-cols-2 items-center gap-8">
                 {/* Left Container */}
-                <div className="max-w-md">
+                <div className="max-w-md mx-auto mb-8 md:mb-0">
                     <h1 className="text-4xl font-bold mb-4 text-gray-300">Let&lsquo;s Talk</h1>
                     <p className="text-lg mb-4 text-gray-400">
                         Have a question or want to discuss a project? Feel free to contact
@@ -70,8 +70,8 @@ const Contact = () => {
                 </div>
 
                 {/* Right Container */}
-                <div className="max-w-md bg-[#111132] shadow-md shadow-indigo-800 rounded p-5">
-                    <form onSubmit={sendEmail} ref={formRef}>
+                <div className="w-full sm:max-w-md mx-auto bg-[#111132] shadow-md shadow-indigo-800 rounded p-5">
+                    <form className='w-full' onSubmit={sendEmail} ref={formRef}>
                         <div className="mb-4">
                             <label htmlFor="name" className="block text-gray-300 font-medium">
                                 Your Name

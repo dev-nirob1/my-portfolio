@@ -31,7 +31,7 @@ const imgVariants = {
 
 const Hero = () => {
     return (
-        <div className="md:h-[100vh] overflow-hidden px-4 md:px-8 lg:px-16 bg-gradient-to-b from-[#0c0c1d] to-[#111132] mx-[7px] md:mx-0">
+        <div className="md:h-[100vh] pt-8 overflow-hidden px-4 md:px-8 lg:px-16 bg-gradient-to-b from-[#0c0c1d] to-[#111132] mx-[7px] md:mx-0">
 
             <div className="h-full grid grid-cols-1 md:grid-cols-2 items-center justify-center">
                 <div className="flex text-center md:text-left items-center order-2 md:order-1 justify-center">

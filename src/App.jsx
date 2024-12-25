@@ -1,6 +1,5 @@
 import './App.css'
 import About from './components/about/About';
-import Chatbot from './components/chatbot/Chatbot';
 import Contact from './components/contact/Contact';
 import Footer from './components/footer/Footer';
 import Hero from './components/hero/Hero';
@@ -48,7 +47,6 @@ const App = () => {
       <section className='px-2'>
         <Footer />
       </section>
-      <Chatbot />
     </div>
   );
 };
